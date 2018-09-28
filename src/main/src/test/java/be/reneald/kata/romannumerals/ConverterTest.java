@@ -86,4 +86,17 @@ class ConverterTest {
         //THEN
         Assertions.assertThat(actual).isEqualTo(expected);
     }
+
+    @Test
+    public void toRoman_whenGiven1984_shouldReturnMCMLXXXIV() {
+        //GIVEN
+        int input = 1984;
+        String expected = "MCMLXXXIV";
+
+        //WHEN
+        String actual = converter.toRoman(input);
+
+        //THEN
+        Assertions.assertThat(actual).isEqualTo(expected);
+    }
 }
