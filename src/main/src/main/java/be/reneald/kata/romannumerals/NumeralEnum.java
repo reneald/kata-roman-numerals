@@ -6,7 +6,7 @@ public enum NumeralEnum {
     TENS("X", 10, ONES),
     FIFTIES("L", 50, TENS),
     HUNDREDS("C", 100, TENS),
-    FIVE_HUNDREDS("L", 500, HUNDREDS),
+    FIVE_HUNDREDS("D", 500, HUNDREDS),
     THOUSANDS("M", 1000, HUNDREDS);
 
     private String symbol;
