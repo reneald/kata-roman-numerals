@@ -10,13 +10,13 @@ public class Converter {
         int remainder = input;
         Numeral units = new Numeral(ONES);
         Numeral fives = new Numeral(FIVES);
-//        Numeral tens = new Numeral(TENS);
-//        Numeral fifties = new Numeral(FIFTIES);
-//        Numeral hundreds = new Numeral(HUNDREDS);
-//        Numeral fiveHundreds = new Numeral(FIVE_HUNDREDS);
-//        Numeral thousands = new Numeral(THOUSANDS);
+        Numeral tens = new Numeral(TENS);
+        Numeral fifties = new Numeral(FIFTIES);
+        Numeral hundreds = new Numeral(HUNDREDS);
+        Numeral fiveHundreds = new Numeral(FIVE_HUNDREDS);
+        Numeral thousands = new Numeral(THOUSANDS);
 
-        List<Numeral> inputDivided = Arrays.asList(fives, units);
+        List<Numeral> inputDivided = Arrays.asList(thousands, fiveHundreds, hundreds, fifties, tens, fives, units);
 
         StringBuilder result = new StringBuilder();
 
